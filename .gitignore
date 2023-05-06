@@ -23,4 +23,6 @@ yarn-error.log*
 .env*.local
 
 # vitepress
-/docs/.vitepress
+/docs/.vitepress/cache
+/docs/.vitepress/dist
+
