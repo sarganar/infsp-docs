@@ -15,11 +15,14 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ✒️
+    title: Creatividad
+    details:  Crea tus propias aventuras conversacionales (o interactive fiction).
+  - icon: 🧩
+    title: Expandible
+    details: Extiende su potencial utilizando librerías de terceros.
+  - icon: 🔀
+    title: Sabores
+    details: Codifica tu aventura a la vieja escuela con Inform 6, o utilizando el enfoque de lenguaje natural de Inform 7.
 ---
 
