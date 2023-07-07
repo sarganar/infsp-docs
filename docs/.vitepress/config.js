@@ -31,7 +31,9 @@ export default defineConfig({
 
     },
     outlineTitle: 'En esta página',
-
+    returnToTopLabel: 'Volver arriba',
+    logo: '/Logo_infspB.jpg',
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sarganar/infsp-docs' }
     ]
