@@ -15,6 +15,6 @@ Aquí tienes una serie de recomendaciones del austral [Incanus](https://incanus.
 
 4. Un IDE a la altura del desafío. Durante mucho tiempo JIF era el más utilizado, pero el soporte para MV Java lo ha vuelto algo poco responsivo para los estándares actuales. Estos días se prefiere trabajar con [Visual Studio Code](https://code.visualstudio.com/download), que tiene múltiples extensiones para desarrollar con inform: árbol de clases, manejo/resaltado de sintaxis y auto completar código. Además las librerías de infsp6, para que inform hable español, la puedes descargar [aquí](https://github.com/sarganar/infsp6/releases).  
 
-5. Después de _La Torre_, recomendamos la serie de artículos de Incanus sobre autoría como "guía de ruta" para el autor novato en la creación de aventuras: puedes descargarlo de [aquí](https://incanus.caad.club/Creando_una_aventura_de_texto.epub)
+5. Después de _La Torre_, recomendamos la serie de artículos de Incanus sobre autoría como "guía de ruta" para el autor novato en la creación de aventuras: puedes descargarlo de [aquí](https://incanus.caad.club/Creando_una_aventura_de_texto.epub).
 
 6. La documentación INFSP en la antigua [WikiCAAD](https://web.archive.org/web/20221213061608/https://wiki.caad.es/Inform6_Docs) es estupenda como referencia general.
