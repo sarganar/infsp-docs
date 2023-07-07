@@ -12,7 +12,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: Inform 6
-      link: /api-examples
+      link: /infsp6/
 
 features:
   - icon: ✒️

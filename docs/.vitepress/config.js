@@ -11,15 +11,26 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
+    sidebar: {
+      '/infsp6/':[
       {
-        text: 'Examples',
+        text: 'Inform 6',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Ruta de aprendizaje', link: '/infsp6/' }          
         ]
       }
     ],
+    '/infsp7/':[
+      {
+        text: 'Inform 7',
+        items: [
+          { text: 'Comenzando', link: '/infsp7/' }          
+        ]
+      }
+    ]
+
+    },
+    outlineTitle: 'En esta página',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sarganar/infsp-docs' }
