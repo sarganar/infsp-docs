@@ -6,7 +6,7 @@ El sitio estático generado se publica [aquí](https://sarganar.github.io/infsp-
 
 El stack utilizado es [Vitepress](https://vitepress.dev/).
 
-Los contenidos se suben como archivos markdown en la [carpeta docs](docs/).
+Los contenidos se suben como archivos markdown en las carpeta infsp6 e infsp7.
 
 Puedes colaborar clonando este repositorio y haciendos tus PRs (no los viernes).
 
