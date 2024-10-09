@@ -30,13 +30,14 @@ export default defineConfig({
     ]
 
     },
+
     outlineTitle: 'En esta página',
     returnToTopLabel: 'Volver arriba',
     logo: '/Logo_infspB.jpg',
-    
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/sarganar/infsp-docs' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  base:'/infsp-docs/'
+  base:'/infsp-docs-new/'
 })
