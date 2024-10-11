@@ -39,5 +39,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  base:'/infsp-docs-new/'
+  //base:'/infsp-docs-new/'
 })

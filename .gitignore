@@ -26,3 +26,4 @@ yarn-error.log*
 /.vitepress/cache
 /.vitepress/dist
 
+pacakage-lock.json
