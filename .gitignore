@@ -23,7 +23,7 @@ yarn-error.log*
 .env*.local
 
 # vitepress
-/.vitepress/cache
-/.vitepress/dist
+.vitepress/cache
+.vitepress/dist
 
 pacakage-lock.json
