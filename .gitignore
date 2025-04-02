@@ -26,4 +26,4 @@ yarn-error.log*
 .vitepress/cache
 .vitepress/dist
 
-pacakage-lock.json
+package-lock.json
