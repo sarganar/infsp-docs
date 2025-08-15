@@ -1,5 +1,15 @@
 # Inform 7 <Badge type="info" text="v10.1.2" />
 
+## Cómo usar online
+
+Dirígite al IDE online [Borogove](https://borogove.app/).
+
+Allí, elige la targeta que lee **Inform7**.
+La siguiente pantalla te mostrará la ventana de código lista para escribir (Panel Source Text).
+Recuerda ir a Settings y elegir la **Compiler version** de 10.
+
+
+
 ## Cómo instalar
 
 
