@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Inform 7
-      link: /markdown-examples
+      link: /infsp7/
     - theme: alt
       text: Inform 6
       link: /infsp6/
@@ -20,7 +20,7 @@ features:
     details:  Crea tus propias aventuras conversacionales (o interactive fiction).
   - icon: 🧩
     title: Expandible
-    details: Extiende su potencial utilizando librerías de terceros.
+    details: Extiende su potencial utilizando librerías de la comunidad.
   - icon: 🔀
     title: Sabores
     details: Codifica tu aventura a la vieja escuela con Inform 6, o utilizando el enfoque de lenguaje natural de Inform 7.

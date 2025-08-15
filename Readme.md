@@ -1,8 +1,8 @@
 # INFSP DOCS
 
-Repositorio hispano de la documentación de Inform 6 e Inform 7.
+Repositorio de la documentación de Inform 6 e Inform 7 en español.
 
-El sitio estático generado se publica [aquí](https://sarganar.github.io/infsp-docs/).
+El sitio generado se publica [aquí](https://sarganar.github.io/infsp-docs/).
 
 El stack utilizado es [Vitepress](https://vitepress.dev/).
 

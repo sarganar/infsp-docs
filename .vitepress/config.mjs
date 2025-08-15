@@ -8,7 +8,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: {
@@ -31,12 +30,12 @@ export default defineConfig({
 
     },
 
-    outlineTitle: 'En esta página',
+    outlineTitle: 'En esta página:',
     returnToTopLabel: 'Volver arriba',
     logo: '/Logo_infspB.jpg',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/sarganar/I7-Spanish' }
     ]
   },
   base:'/infsp-docs/',
