@@ -1,20 +1,46 @@
 # Inform 7 <Badge type="info" text="v10.1.2" />
 
-## 🏍️ Ruta de aprendizaje
-
-¿Estás comenzando con inform6 y no sabes por dónde empezar?
-
-Aquí tienes una serie de recomendaciones del austral [Incanus](https://incanus.itch.io/) a tener en cuenta:
-
-1. Tener a mano la documentación original: [Inform Designers Manual](http://www.inform-fiction.org/manual/html/index.html) (en inglés)
+## Cómo instalar
 
 
-2. Tener la documentación de guía: [Inform Begginer Guide](http://www.inform-fiction.org/manual/about_ibg.html) (en inglés)
+### Inform 7 IDE
 
-3. Un  buen tutorial en español. Por ejemplo, [La Torre](https://web.archive.org/web/20221213061608/http://www.caad.es/informate/infsp/downloads/INFSP_Tutorial_La_Torre.rar)
+Descarga e instala el IDE de Inform [desde su repositorio](https://github.com/ganelson/inform/releases). Es la release **10.1.2**, elige la que corresponde a tu SO.
 
-4. Un IDE a la altura del desafío. Durante mucho tiempo JIF era el más utilizado, pero el soporte para MV Java lo ha vuelto algo poco responsivo para los estándares actuales. Estos días se prefiere trabajar con [Visual Studio Code](https://code.visualstudio.com/download), que tiene múltiples extensiones para desarrollar con inform: árbol de clases, manejo/resaltado de sintaxis y auto completar código. También hay quienes utilizan [Notepad++](https://notepad-plus-plus.org/), añadiendo el archivo de lenguaje [inform6](https://intfiction.org/t/inform-6-support-in-notepad/55098/2). En cualquier caso, necesitaras las librerías de infsp6, para que inform hable español. Las puedes descargar [aquí](https://github.com/sarganar/infsp6/releases).  
 
-5. Después de _La Torre_, recomendamos la serie de artículos de Incanus sobre autoría como "guía de ruta" para el autor novato en la creación de aventuras: puedes descargarlo de [aquí](https://incanus.caad.club/Creando_una_aventura_de_texto.epub).
+### Librerías Español
+Ve a la sección [Releases de I7 Spanish](https://github.com/sarganar/I7-Spanish/releases). Allí las tienes empaquetadas en un zip. Descargate la última.
 
-6. La documentación INFSP en la antigua [WikiCAAD](https://web.archive.org/web/20221213061608/https://wiki.caad.es/Inform6_Docs) es estupenda como referencia general.
+Te recomiendo que instales las librerías de manera local (es decir, solo para tu proyecto actual). Si tu proyecto va a llamarse *TuProyecto*, entonces tus carpetas serán:
+```
+    Projects\
+      |-TuProyecto.inform\
+      |-TuProyecto.Materials
+         |-Extensions\
+         |-Inter\
+```
+
+### miniTutorial: Inciar *TuProyecto* de manera Local
+
+- Abre la aplicación Inform 7 IDE y crea tu primer proyecto con nombre *TuProyecto*. Se creará una carpeta *TuProyecto* en su folder *Projects* (en *MisDocumentos/Inform* por ejemplo o donde tu le digas)
+
+- Copia la carpeta **Sebastian Arg** del zip que descargaste al folder *../TuProyecto.Materials/Extensions*  (si no existe, debes crear el folder *Extensions*)
+
+- Copia la carpeta **SpanishLanguageKit** del zip que descargaste al folder *../TuProyecto.Materials/Inter*  (si no existe, debes crear el folder *Inter*)
+
+- Eso es todo, ahora desde tu IDE puedes compilar el proyecto.
+
+Hola Mundo (proyecto minimo)
+---
+
+- En la aplicación Inform 7 tienes el panel *Source*, allí escribe el siguiente código:
+
+```
+"Hola Mundo" (in spanish)
+
+Test Lab is a room.  "Una pequeña habitación de pruebas."
+
+When play begins: say "Hola Mundo!".
+```
+
+- Compilas con _F5_ y verás el resultado en el panel *Story*
