@@ -24,7 +24,7 @@ export default defineConfig({
         text: 'Inform 7',
         items: [
           { text: 'Comenzando', link: '/infsp7/' },
-          { text: 'Limitaciones al escribir en español', link: '/infsp7/limitaciones' }
+          { text: 'Consideraciones al escribir en español', link: '/infsp7/limitaciones' }
         ]
       }
     ]

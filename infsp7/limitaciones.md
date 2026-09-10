@@ -1,4 +1,4 @@
-# Limitaciones al escribir código en español
+# Consideraciones al escribir código en español
 
 Inform 7 permite escribir el **texto de juego** en español (con las librerías
 INFSP), pero el **código fuente** —las frases que describen el mundo— sigue
