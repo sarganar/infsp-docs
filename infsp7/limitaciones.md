@@ -73,6 +73,81 @@ La puerta is in El Recibidor.   [ crea una cosa llamada "puerta" -- OK ]
 
 El problema es exclusivo de la declaración de *kinds*.
 
+## Traducir nombres de *kinds* al español
+
+Puedes darle nombre español a una *kind* del inglés declarándola como
+**subclase**:
+
+```
+Mujer is a kind of woman.
+The plural of mujer is mujeres.
+
+Hombre is a kind of man.
+The plural of hombre is hombres.
+
+Habitacion is a kind of room.
+The plural of habitacion is habitaciones.
+
+Recipiente is a kind of container.
+The plural of recipiente is recipientes.
+```
+
+Y a partir de ahí escribes en español:
+
+```
+Marta is a mujer in El Laboratorio.
+
+Instead of examining a mujer:
+    say "Es una mujer.".
+```
+
+`Marta` sigue siendo también `woman` y `person`, así que **las reglas sobre
+`a woman` también le aplican**. Y `[number of mujeres]`, `[list of mujeres]`,
+etc. funcionan con normalidad.
+
+::: warning A tener en cuenta
+- Es una **subclase**, no un alias: `woman` sigue existiendo y no toda `woman`
+  es una `mujer`. Si en tu juego usas siempre `mujer` no lo notarás.
+- **Declara el plural** (`The plural of mujer is mujeres.`) o Inform lo
+  pluralizará como *mujers*.
+- Sin artículo en la declaración (`Mujer is a kind of woman.`, no
+  `La mujer…`), por lo dicho en la sección anterior.
+- Esto no afecta al **parser del jugador**. Para que `> examina la mujer`
+  funcione, añade aparte `Understand "mujer" as a woman.`
+:::
+
+Puedes reunir todas estas declaraciones en una extensión personal y reutilizarla
+en todos tus proyectos.
+
+## Genitivo y posesivo
+
+El español no tiene el genitivo con apóstrofo del inglés (*the box's lid*). El
+posesivo se construye siempre con **`de` + artículo**: *la tapa de la caja*,
+*el pomo del cajón*.
+
+**No uses `[possessive]`, `['s]` ni `[apostrophe]`**: INFSP no los redefine y
+sueltan el genitivo inglés (`[The caja][possessive] tapa` → *«La caja's tapa»*).
+Además no son traducibles: en inglés van *delante* del poseedor, en español
+*detrás* y con reordenamiento de la frase.
+
+Escribe el orden español con las sustituciones de INFSP:
+
+| escribes | sale |
+|---|---|
+| `[el tapa] [del caja]` | la tapa de la caja |
+| `[el pomo] [del cajon]` | el pomo del cajón &nbsp; (`de` + `el` = `del`) |
+| `la mano [del Marta]` | la mano de Marta &nbsp; (nombre propio, sin artículo) |
+| `[del_ noun]` | solo el artículo: `del` / `de la` / `de los` / `de las` |
+
+`[del noun]` imprime `de` + artículo + **nombre**; `[del_ noun]`, solo `de` +
+artículo. Las dos resuelven género, número y contracción automáticamente, lo
+cual es útil sobre todo en reglas genéricas donde el objeto es variable. Para un
+objeto fijo y conocido, escribir *la tapa de la caja* a mano es igual de válido.
+
+Una **parte** (`X is part of Y`) se nombra solo por su propio nombre (*la
+tapa*), sin prefijo de genitivo automático —igual que en inglés—. Si quieres
+*la tapa de la caja*, lo compones tú.
+
 ## Verbos adaptativos: hay que declararlos
 
 Los tokens de texto adaptativo (`[llevas]`, `[eres]`, `[estás]`…) solo
